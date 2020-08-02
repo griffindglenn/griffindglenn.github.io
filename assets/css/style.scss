@@ -22,9 +22,10 @@
   }
 }
 
-.contactc {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+.main-content {
+  h2 {
+    margin-top: -2rem;
+  }
 }
 
 .site-footer {
@@ -43,13 +44,4 @@
   @include small {
     font-size: 0.6rem;
   }
-}
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold;
-}
-
-.site-footer-credits {
-  color: $blockquote-text-color;
 }

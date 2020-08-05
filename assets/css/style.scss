@@ -28,17 +28,28 @@
   }
 }
 
-.contactinfo {
+.contactinfodiv {
+  @include large{
+  }
+
+  @include medium{
+  }
+
+  @include small{
+  display: inline-block;
+  }
+}
+
+.contactinfospan {
   @include large {
-  float:right
+  float:right;
   }
 
   @include medium {
-  float:right
+  float:right;
   }
 
   @include small {
-  
   }
 }
 
